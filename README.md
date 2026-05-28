@@ -1,8 +1,12 @@
 # AI-Powered Market Data Pipeline
 
-A portfolio-grade data engineering and AI analytics project for US equity market intelligence. The pipeline ingests market data, stores it in DuckDB, builds analytical features, produces signal rankings, generates optional AI summaries, and exposes outputs through reports and a FastAPI dashboard API.
+A portfolio-grade data engineering and AI analytics project for US equity market intelligence.
 
-This project is designed to demonstrate how a modern analytics platform can be organized around ingestion, storage, transformation, deterministic analytics, AI interpretation, orchestration, and API-ready outputs.
+![Live Dashboard](docs/assets/dashboard-live.png)
+
+The pipeline ingests live market data, stores analytical history in DuckDB, generates deterministic signal analytics, produces optional AI-driven market commentary, and exposes outputs through a FastAPI dashboard API and lightweight operational UI.
+
+This project demonstrates how a modern AI-native analytics platform can be organized around ingestion, storage, transformation, deterministic analytics, orchestration, AI interpretation, and API-ready outputs.
 
 ## Architecture Overview
 
