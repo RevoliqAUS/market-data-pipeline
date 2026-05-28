@@ -1,0 +1,17 @@
+market: US
+default_period: 1y
+tickers:
+  - AAPL
+  - MSFT
+  - NVDA
+  - TSLA
+  - AMZN
+  - META
+  - GOOGL
+  - AMD
+  - NFLX
+  - AVGO
+benchmarks:
+  SPY: S&P 500 ETF
+  QQQ: Nasdaq 100 ETF
+

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Sample report placeholder</title>
+  <desc id="desc">A placeholder report screenshot for the market data pipeline.</desc>
+  <rect width="1200" height="680" fill="#f8fafc"/>
+  <rect x="70" y="50" width="1060" height="580" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="110" y="105" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">Daily Market Summary</text>
+  <text x="110" y="142" font-family="Arial, sans-serif" font-size="16" fill="#475569">Generated JSON and CSV report output</text>
+  <rect x="110" y="185" width="300" height="110" rx="6" fill="#ecfdf5" stroke="#10b981"/>
+  <text x="135" y="225" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#065f46">Bullish</text>
+  <text x="135" y="260" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#065f46">3</text>
+  <rect x="450" y="185" width="300" height="110" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="475" y="225" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#334155">Neutral</text>
+  <text x="475" y="260" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#334155">5</text>
+  <rect x="790" y="185" width="300" height="110" rx="6" fill="#fff1f2" stroke="#f43f5e"/>
+  <text x="815" y="225" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#9f1239">Bearish</text>
+  <text x="815" y="260" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#9f1239">2</text>
+  <rect x="110" y="340" width="980" height="210" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="140" y="385" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Signal Rankings</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#334155">
+    <text x="140" y="430">Ticker</text><text x="300" y="430">Signal</text><text x="480" y="430">Score</text><text x="640" y="430">Trend</text><text x="830" y="430">Close</text>
+    <line x1="140" y1="448" x2="1040" y2="448" stroke="#cbd5e1"/>
+    <text x="140" y="485">NVDA</text><text x="300" y="485">bullish</text><text x="480" y="485">2</text><text x="640" y="485">bullish stack</text><text x="830" y="485">---</text>
+    <text x="140" y="525">MSFT</text><text x="300" y="525">neutral</text><text x="480" y="525">1</text><text x="640" y="525">mixed</text><text x="830" y="525">---</text>
+  </g>
+</svg>
+

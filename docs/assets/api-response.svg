@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">API response placeholder</title>
+  <desc id="desc">A placeholder API response screenshot for FastAPI endpoints.</desc>
+  <rect width="1200" height="620" fill="#0f172a"/>
+  <rect x="70" y="50" width="1060" height="520" rx="8" fill="#111827" stroke="#334155"/>
+  <text x="110" y="105" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#e5e7eb">FastAPI Dashboard API</text>
+  <text x="110" y="142" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8">GET /signals/latest</text>
+  <rect x="110" y="180" width="980" height="330" rx="6" fill="#020617" stroke="#334155"/>
+  <g font-family="Menlo, Consolas, monospace" font-size="18" fill="#d1d5db">
+    <text x="140" y="225">{</text>
+    <text x="170" y="260">"signals": [</text>
+    <text x="205" y="295">{ "ticker": "NVDA", "signal": "bullish", "signal_score": 2 },</text>
+    <text x="205" y="330">{ "ticker": "MSFT", "signal": "neutral", "signal_score": 1 },</text>
+    <text x="205" y="365">{ "ticker": "AAPL", "signal": "neutral", "signal_score": 0 }</text>
+    <text x="170" y="400">]</text>
+    <text x="140" y="435">}</text>
+  </g>
+  <text x="110" y="545" font-family="Arial, sans-serif" font-size="15" fill="#94a3b8">Replace with a real screenshot after running uvicorn dashboard.api:app --reload --port 8000.</text>
+</svg>

@@ -1,0 +1,10 @@
+storage:
+  duckdb_path: data/market_pipeline.duckdb
+reports_dir: reports/output
+ai:
+  provider: openai
+  model: gpt-4o-mini
+pipeline:
+  cache_seconds: 300
+  min_history_rows: 30
+

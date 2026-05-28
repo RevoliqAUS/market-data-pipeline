@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T00:00:00Z",
+  "market": "US equities",
+  "pipeline": "AI-Powered Market Analytics Pipeline",
+  "summary": {
+    "tickers_analyzed": 10,
+    "bullish": 3,
+    "neutral": 5,
+    "bearish": 2
+  },
+  "rankings": [],
+  "ai_summary": "Sample placeholder. Run scripts/run_pipeline.py to generate live output.",
+  "disclaimer": "This project is for research and analytics purposes only and does not constitute financial advice."
+}
