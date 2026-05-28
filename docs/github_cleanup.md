@@ -17,3 +17,8 @@ Before publishing:
 4. Generate a fresh sample report only if it does not contain private notes or API keys.
 5. Confirm `data/`, `logs/`, and `reports/output/` are ignored.
 
+## Recommended GitHub Topics
+
+Use concise repository topics so the project is discoverable as a data engineering and analytics portfolio piece:
+
+`data-engineering`, `analytics`, `duckdb`, `fastapi`, `python`, `etl`, `sql`, `orchestration`, `ai-analytics`, `market-data`, `prefect`

@@ -1,12 +1,12 @@
 # AI-Powered Market Data Pipeline
 
-A portfolio-grade data engineering and AI analytics project for US equity market intelligence.
+A portfolio-grade data engineering and AI-assisted analytics project for US equity market data.
 
 ![Live Dashboard](docs/assets/dashboard-live.png)
 
-The pipeline ingests live market data, stores analytical history in DuckDB, generates deterministic signal analytics, produces optional AI-driven market commentary, and exposes outputs through a FastAPI dashboard API and lightweight operational UI.
+The pipeline ingests market data, stores analytical history in DuckDB, generates deterministic signal analytics, produces optional AI-assisted commentary, and exposes outputs through a FastAPI dashboard API and lightweight operational UI.
 
-This project demonstrates how a modern AI-native analytics platform can be organized around ingestion, storage, transformation, deterministic analytics, orchestration, AI interpretation, and API-ready outputs.
+This project demonstrates how a modern analytics platform can be organized around ingestion, storage, transformation, orchestration, AI-assisted insights, and API-ready outputs.
 
 ## Architecture Overview
 
@@ -406,14 +406,19 @@ The orchestration entry point in [orchestration/pipeline.py](orchestration/pipel
 
 ## Roadmap
 
-- PostgreSQL storage adapter
-- dbt project for curated feature marts
-- Airflow or Prefect deployment example
-- Dashboard UI for signal exploration
-- Data quality checks and backfill commands
-- Conversational querying over market history
-- Vector search over generated AI market commentary
-- Automated video/report rendering with FFmpeg and Puppeteer
+- [x] DuckDB analytical storage layer
+- [x] SQL analytics examples
+- [x] FastAPI dashboard API
+- [x] Lightweight dashboard UI for signal exploration
+- [x] Optional Prefect orchestration demo
+- [x] Docker-ready local runtime
+- [ ] PostgreSQL storage adapter
+- [ ] dbt project for curated feature marts
+- [ ] Airflow deployment example
+- [ ] Data quality checks and backfill commands
+- [ ] Conversational querying over market history
+- [ ] Vector search over generated AI market commentary
+- [ ] Automated video/report rendering with FFmpeg and Puppeteer
 
 ## Disclaimer
 
