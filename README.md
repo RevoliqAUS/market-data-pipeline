@@ -208,7 +208,7 @@ curl "http://localhost:8000/prices/AAPL"
 
 The project includes a small React + Vite + TypeScript dashboard under [dashboard/web](dashboard/web). It consumes the existing FastAPI API when live data is available and falls back to documented sample data from `dashboard/web/src/sampleData.ts` for portfolio demos.
 
-![Dashboard UI placeholder](docs/assets/dashboard-ui.svg)
+![Live Dashboard](docs/assets/dashboard-live.png)
 
 Start the backend:
 
